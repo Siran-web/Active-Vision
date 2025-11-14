@@ -13,9 +13,11 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class RequestDetectionDto {
+
     private String image_source;
     private String file_name;
     private LocalDateTime detection_time;
 
     private List<Long> objectIds;
+
 }

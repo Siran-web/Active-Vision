@@ -10,8 +10,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class ResponseObjectDto {
-    private Long id;
 
+    private Long id;
     private String objectClass;
 
     private Double x1;
